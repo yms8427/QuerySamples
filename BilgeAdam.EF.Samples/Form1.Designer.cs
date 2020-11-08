@@ -34,33 +34,33 @@
             this.ürünlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.msbProduct_Consumed = new System.Windows.Forms.ToolStripMenuItem();
             this.msbProducts_Milk = new System.Windows.Forms.ToolStripMenuItem();
-            this.içeceklerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pahalıOlanlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.satıştanKaldırılanlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbProduct_Beverages = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbProduct_Expensives = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbProducts_Discontinued = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.msbProducts_All = new System.Windows.Forms.ToolStripMenuItem();
             this.müşterilerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbCustomers_All = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbCustomers_Orders = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbCustomersOrderAmounts = new System.Windows.Forms.ToolStripMenuItem();
             this.personelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbEmployee_All = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbEmployee_Elders = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbEmployee_Managers = new System.Windows.Forms.ToolStripMenuItem();
             this.siparişToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbOrder_CountOfYearlySell = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbOrder_Top10Customers = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbOrder_Top5Date = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbOrder_1997MonthlyReport = new System.Windows.Forms.ToolStripMenuItem();
             this.siparişDetayıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbOrderDetail_MostSoldByCount = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbOrderDetail_MostSoldByPrice = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbOrderDetails_Compare = new System.Windows.Forms.ToolStripMenuItem();
             this.sağlayıcılarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbSuppliers_All = new System.Windows.Forms.ToolStripMenuItem();
+            this.msbSupplier_Swedish = new System.Windows.Forms.ToolStripMenuItem();
             this.btnNext = new System.Windows.Forms.Button();
             this.btnPrevious = new System.Windows.Forms.Button();
-            this.müşterilerToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.müşteriSiparişleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.müşteriSiparişÜcretleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.personelListesiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.enYaşlı3PersonelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.personelVeYöneticisiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.yılBazlıToplamSatışAdediToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.enÇokAlıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.enÇokGelirEldeEdilen5TarihVeGelirMiktarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.yılıAylıkCirolarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.firmaListesiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.isveçliŞirketlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.enÇokSatılanÜrünAdetBazlıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.enÇokSAtılanÜrünFiyatBazlıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bugüneKadarYapılanİndirimsizSatışTutarıİleİskontoKarşılaştırmasıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResult)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -105,9 +105,9 @@
             this.ürünlerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.msbProduct_Consumed,
             this.msbProducts_Milk,
-            this.içeceklerToolStripMenuItem,
-            this.pahalıOlanlarToolStripMenuItem,
-            this.satıştanKaldırılanlarToolStripMenuItem,
+            this.msbProduct_Beverages,
+            this.msbProduct_Expensives,
+            this.msbProducts_Discontinued,
             this.toolStripSeparator1,
             this.msbProducts_All});
             this.ürünlerToolStripMenuItem.Name = "ürünlerToolStripMenuItem";
@@ -128,23 +128,26 @@
             this.msbProducts_Milk.Text = "Süt Ürünleri";
             this.msbProducts_Milk.Click += new System.EventHandler(this.msbProducts_Milk_Click);
             // 
-            // içeceklerToolStripMenuItem
+            // msbProduct_Beverages
             // 
-            this.içeceklerToolStripMenuItem.Name = "içeceklerToolStripMenuItem";
-            this.içeceklerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.içeceklerToolStripMenuItem.Text = "İçecekler";
+            this.msbProduct_Beverages.Name = "msbProduct_Beverages";
+            this.msbProduct_Beverages.Size = new System.Drawing.Size(180, 22);
+            this.msbProduct_Beverages.Text = "İçecekler";
+            this.msbProduct_Beverages.Click += new System.EventHandler(this.msbProduct_Beverages_Click);
             // 
-            // pahalıOlanlarToolStripMenuItem
+            // msbProduct_Expensives
             // 
-            this.pahalıOlanlarToolStripMenuItem.Name = "pahalıOlanlarToolStripMenuItem";
-            this.pahalıOlanlarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pahalıOlanlarToolStripMenuItem.Text = "Pahalı Olanlar";
+            this.msbProduct_Expensives.Name = "msbProduct_Expensives";
+            this.msbProduct_Expensives.Size = new System.Drawing.Size(180, 22);
+            this.msbProduct_Expensives.Text = "Pahalı Olanlar";
+            this.msbProduct_Expensives.Click += new System.EventHandler(this.msbProduct_Expensives_Click);
             // 
-            // satıştanKaldırılanlarToolStripMenuItem
+            // msbProducts_Discontinued
             // 
-            this.satıştanKaldırılanlarToolStripMenuItem.Name = "satıştanKaldırılanlarToolStripMenuItem";
-            this.satıştanKaldırılanlarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.satıştanKaldırılanlarToolStripMenuItem.Text = "Satıştan Kaldırılanlar";
+            this.msbProducts_Discontinued.Name = "msbProducts_Discontinued";
+            this.msbProducts_Discontinued.Size = new System.Drawing.Size(180, 22);
+            this.msbProducts_Discontinued.Text = "Satıştan Kaldırılanlar";
+            this.msbProducts_Discontinued.Click += new System.EventHandler(this.msbProducts_Discontinued_Click);
             // 
             // toolStripSeparator1
             // 
@@ -161,55 +164,161 @@
             // müşterilerToolStripMenuItem
             // 
             this.müşterilerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.müşterilerToolStripMenuItem1,
-            this.müşteriSiparişleriToolStripMenuItem,
-            this.müşteriSiparişÜcretleriToolStripMenuItem});
+            this.msbCustomers_All,
+            this.msbCustomers_Orders,
+            this.msbCustomersOrderAmounts});
             this.müşterilerToolStripMenuItem.Name = "müşterilerToolStripMenuItem";
             this.müşterilerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.müşterilerToolStripMenuItem.Text = "Müşteriler";
             // 
+            // msbCustomers_All
+            // 
+            this.msbCustomers_All.Name = "msbCustomers_All";
+            this.msbCustomers_All.Size = new System.Drawing.Size(198, 22);
+            this.msbCustomers_All.Text = "Müşteriler";
+            this.msbCustomers_All.Click += new System.EventHandler(this.msbCustomers_All_Click);
+            // 
+            // msbCustomers_Orders
+            // 
+            this.msbCustomers_Orders.Name = "msbCustomers_Orders";
+            this.msbCustomers_Orders.Size = new System.Drawing.Size(198, 22);
+            this.msbCustomers_Orders.Text = "Müşteri Siparişleri";
+            this.msbCustomers_Orders.Click += new System.EventHandler(this.msbCustomers_Orders_Click);
+            // 
+            // msbCustomersOrderAmounts
+            // 
+            this.msbCustomersOrderAmounts.Name = "msbCustomersOrderAmounts";
+            this.msbCustomersOrderAmounts.Size = new System.Drawing.Size(198, 22);
+            this.msbCustomersOrderAmounts.Text = "Müşteri Sipariş Ücretleri";
+            this.msbCustomersOrderAmounts.Click += new System.EventHandler(this.msbCustomersOrderAmounts_Click);
+            // 
             // personelToolStripMenuItem
             // 
             this.personelToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.personelListesiToolStripMenuItem,
-            this.enYaşlı3PersonelToolStripMenuItem,
-            this.personelVeYöneticisiToolStripMenuItem});
+            this.msbEmployee_All,
+            this.msbEmployee_Elders,
+            this.msbEmployee_Managers});
             this.personelToolStripMenuItem.Name = "personelToolStripMenuItem";
             this.personelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.personelToolStripMenuItem.Text = "Personel";
             // 
+            // msbEmployee_All
+            // 
+            this.msbEmployee_All.Name = "msbEmployee_All";
+            this.msbEmployee_All.Size = new System.Drawing.Size(187, 22);
+            this.msbEmployee_All.Text = "Personel Listesi";
+            this.msbEmployee_All.Click += new System.EventHandler(this.msbEmployee_All_Click);
+            // 
+            // msbEmployee_Elders
+            // 
+            this.msbEmployee_Elders.Name = "msbEmployee_Elders";
+            this.msbEmployee_Elders.Size = new System.Drawing.Size(187, 22);
+            this.msbEmployee_Elders.Text = "En Yaşlı 3 Personel";
+            this.msbEmployee_Elders.Click += new System.EventHandler(this.msbEmployee_Elders_Click);
+            // 
+            // msbEmployee_Managers
+            // 
+            this.msbEmployee_Managers.Name = "msbEmployee_Managers";
+            this.msbEmployee_Managers.Size = new System.Drawing.Size(187, 22);
+            this.msbEmployee_Managers.Text = "Personel ve Yöneticisi";
+            this.msbEmployee_Managers.Click += new System.EventHandler(this.msbEmployee_Managers_Click);
+            // 
             // siparişToolStripMenuItem
             // 
             this.siparişToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.yılBazlıToplamSatışAdediToolStripMenuItem,
-            this.enÇokAlıToolStripMenuItem,
-            this.enÇokGelirEldeEdilen5TarihVeGelirMiktarıToolStripMenuItem,
-            this.yılıAylıkCirolarıToolStripMenuItem});
+            this.msbOrder_CountOfYearlySell,
+            this.msbOrder_Top10Customers,
+            this.msbOrder_Top5Date,
+            this.msbOrder_1997MonthlyReport});
             this.siparişToolStripMenuItem.Name = "siparişToolStripMenuItem";
             this.siparişToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.siparişToolStripMenuItem.Text = "Siparişler";
             // 
+            // msbOrder_CountOfYearlySell
+            // 
+            this.msbOrder_CountOfYearlySell.Name = "msbOrder_CountOfYearlySell";
+            this.msbOrder_CountOfYearlySell.Size = new System.Drawing.Size(318, 22);
+            this.msbOrder_CountOfYearlySell.Text = "Yıl Bazlı Toplam Satış Adedi";
+            this.msbOrder_CountOfYearlySell.Click += new System.EventHandler(this.msbOrder_CountOfYearlySell_Click);
+            // 
+            // msbOrder_Top10Customers
+            // 
+            this.msbOrder_Top10Customers.Name = "msbOrder_Top10Customers";
+            this.msbOrder_Top10Customers.Size = new System.Drawing.Size(318, 22);
+            this.msbOrder_Top10Customers.Text = "En Çok Alış-Veriş Yapan 10 Müşteri";
+            this.msbOrder_Top10Customers.Click += new System.EventHandler(this.msbOrder_Top10Customers_Click);
+            // 
+            // msbOrder_Top5Date
+            // 
+            this.msbOrder_Top5Date.Name = "msbOrder_Top5Date";
+            this.msbOrder_Top5Date.Size = new System.Drawing.Size(318, 22);
+            this.msbOrder_Top5Date.Text = "En Çok Gelir Elde Edilen 5 Tarih ve Gelir Miktarı";
+            this.msbOrder_Top5Date.Click += new System.EventHandler(this.msbOrder_Top5Date_Click);
+            // 
+            // msbOrder_1997MonthlyReport
+            // 
+            this.msbOrder_1997MonthlyReport.Name = "msbOrder_1997MonthlyReport";
+            this.msbOrder_1997MonthlyReport.Size = new System.Drawing.Size(318, 22);
+            this.msbOrder_1997MonthlyReport.Text = "1997 Yılı Aylık Ciroları";
+            this.msbOrder_1997MonthlyReport.Click += new System.EventHandler(this.msbOrder_1997MonthlyReport_Click);
+            // 
             // siparişDetayıToolStripMenuItem
             // 
             this.siparişDetayıToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.enÇokSatılanÜrünAdetBazlıToolStripMenuItem,
-            this.enÇokSAtılanÜrünFiyatBazlıToolStripMenuItem,
-            this.bugüneKadarYapılanİndirimsizSatışTutarıİleİskontoKarşılaştırmasıToolStripMenuItem});
+            this.msbOrderDetail_MostSoldByCount,
+            this.msbOrderDetail_MostSoldByPrice,
+            this.msbOrderDetails_Compare});
             this.siparişDetayıToolStripMenuItem.Name = "siparişDetayıToolStripMenuItem";
             this.siparişDetayıToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.siparişDetayıToolStripMenuItem.Text = "Sipariş Detayı";
             // 
+            // msbOrderDetail_MostSoldByCount
+            // 
+            this.msbOrderDetail_MostSoldByCount.Name = "msbOrderDetail_MostSoldByCount";
+            this.msbOrderDetail_MostSoldByCount.Size = new System.Drawing.Size(439, 22);
+            this.msbOrderDetail_MostSoldByCount.Text = "En Çok Satılan Ürün (Adet Bazlı)";
+            this.msbOrderDetail_MostSoldByCount.Click += new System.EventHandler(this.msbOrderDetail_MostSoldByCount_Click);
+            // 
+            // msbOrderDetail_MostSoldByPrice
+            // 
+            this.msbOrderDetail_MostSoldByPrice.Name = "msbOrderDetail_MostSoldByPrice";
+            this.msbOrderDetail_MostSoldByPrice.Size = new System.Drawing.Size(439, 22);
+            this.msbOrderDetail_MostSoldByPrice.Text = "En Çok Satılan Ürün (Fiyat Bazlı)";
+            this.msbOrderDetail_MostSoldByPrice.Click += new System.EventHandler(this.msbOrderDetail_MostSoldByPrice_Click);
+            // 
+            // msbOrderDetails_Compare
+            // 
+            this.msbOrderDetails_Compare.Name = "msbOrderDetails_Compare";
+            this.msbOrderDetails_Compare.Size = new System.Drawing.Size(439, 22);
+            this.msbOrderDetails_Compare.Text = "Bugüne Kadar Yapılan İndirimsiz Satış Tutarı ile İskonto Karşılaştırması";
+            this.msbOrderDetails_Compare.Click += new System.EventHandler(this.msbOrderDetails_Compare_Click);
+            // 
             // sağlayıcılarToolStripMenuItem
             // 
             this.sağlayıcılarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.firmaListesiToolStripMenuItem,
-            this.isveçliŞirketlerToolStripMenuItem});
+            this.msbSuppliers_All,
+            this.msbSupplier_Swedish});
             this.sağlayıcılarToolStripMenuItem.Name = "sağlayıcılarToolStripMenuItem";
             this.sağlayıcılarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sağlayıcılarToolStripMenuItem.Text = "Sağlayıcılar";
             // 
+            // msbSuppliers_All
+            // 
+            this.msbSuppliers_All.Name = "msbSuppliers_All";
+            this.msbSuppliers_All.Size = new System.Drawing.Size(180, 22);
+            this.msbSuppliers_All.Text = "Firma Listesi";
+            this.msbSuppliers_All.Click += new System.EventHandler(this.msbSuppliers_All_Click);
+            // 
+            // msbSupplier_Swedish
+            // 
+            this.msbSupplier_Swedish.Name = "msbSupplier_Swedish";
+            this.msbSupplier_Swedish.Size = new System.Drawing.Size(180, 22);
+            this.msbSupplier_Swedish.Text = "İsveçli Şirketler";
+            this.msbSupplier_Swedish.Click += new System.EventHandler(this.msbSupplier_Swedish_Click);
+            // 
             // btnNext
             // 
+            this.btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnNext.Location = new System.Drawing.Point(713, 415);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(75, 23);
@@ -220,6 +329,7 @@
             // 
             // btnPrevious
             // 
+            this.btnPrevious.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnPrevious.Location = new System.Drawing.Point(632, 415);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(75, 23);
@@ -227,97 +337,6 @@
             this.btnPrevious.Text = "<";
             this.btnPrevious.UseVisualStyleBackColor = true;
             this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click);
-            // 
-            // müşterilerToolStripMenuItem1
-            // 
-            this.müşterilerToolStripMenuItem1.Name = "müşterilerToolStripMenuItem1";
-            this.müşterilerToolStripMenuItem1.Size = new System.Drawing.Size(198, 22);
-            this.müşterilerToolStripMenuItem1.Text = "Müşteriler";
-            // 
-            // müşteriSiparişleriToolStripMenuItem
-            // 
-            this.müşteriSiparişleriToolStripMenuItem.Name = "müşteriSiparişleriToolStripMenuItem";
-            this.müşteriSiparişleriToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
-            this.müşteriSiparişleriToolStripMenuItem.Text = "Müşteri Siparişleri";
-            // 
-            // müşteriSiparişÜcretleriToolStripMenuItem
-            // 
-            this.müşteriSiparişÜcretleriToolStripMenuItem.Name = "müşteriSiparişÜcretleriToolStripMenuItem";
-            this.müşteriSiparişÜcretleriToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
-            this.müşteriSiparişÜcretleriToolStripMenuItem.Text = "Müşteri Sipariş Ücretleri";
-            // 
-            // personelListesiToolStripMenuItem
-            // 
-            this.personelListesiToolStripMenuItem.Name = "personelListesiToolStripMenuItem";
-            this.personelListesiToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
-            this.personelListesiToolStripMenuItem.Text = "Personel Listesi";
-            // 
-            // enYaşlı3PersonelToolStripMenuItem
-            // 
-            this.enYaşlı3PersonelToolStripMenuItem.Name = "enYaşlı3PersonelToolStripMenuItem";
-            this.enYaşlı3PersonelToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
-            this.enYaşlı3PersonelToolStripMenuItem.Text = "En Yaşlı 3 Personel";
-            // 
-            // personelVeYöneticisiToolStripMenuItem
-            // 
-            this.personelVeYöneticisiToolStripMenuItem.Name = "personelVeYöneticisiToolStripMenuItem";
-            this.personelVeYöneticisiToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
-            this.personelVeYöneticisiToolStripMenuItem.Text = "Personel ve Yöneticisi";
-            // 
-            // yılBazlıToplamSatışAdediToolStripMenuItem
-            // 
-            this.yılBazlıToplamSatışAdediToolStripMenuItem.Name = "yılBazlıToplamSatışAdediToolStripMenuItem";
-            this.yılBazlıToplamSatışAdediToolStripMenuItem.Size = new System.Drawing.Size(318, 22);
-            this.yılBazlıToplamSatışAdediToolStripMenuItem.Text = "Yıl Bazlı Toplam Satış Adedi";
-            // 
-            // enÇokAlıToolStripMenuItem
-            // 
-            this.enÇokAlıToolStripMenuItem.Name = "enÇokAlıToolStripMenuItem";
-            this.enÇokAlıToolStripMenuItem.Size = new System.Drawing.Size(318, 22);
-            this.enÇokAlıToolStripMenuItem.Text = "En Çok Alış-Veriş Yapan 10 Müşteri";
-            // 
-            // enÇokGelirEldeEdilen5TarihVeGelirMiktarıToolStripMenuItem
-            // 
-            this.enÇokGelirEldeEdilen5TarihVeGelirMiktarıToolStripMenuItem.Name = "enÇokGelirEldeEdilen5TarihVeGelirMiktarıToolStripMenuItem";
-            this.enÇokGelirEldeEdilen5TarihVeGelirMiktarıToolStripMenuItem.Size = new System.Drawing.Size(318, 22);
-            this.enÇokGelirEldeEdilen5TarihVeGelirMiktarıToolStripMenuItem.Text = "En Çok Gelir Elde Edilen 5 Tarih ve Gelir Miktarı";
-            // 
-            // yılıAylıkCirolarıToolStripMenuItem
-            // 
-            this.yılıAylıkCirolarıToolStripMenuItem.Name = "yılıAylıkCirolarıToolStripMenuItem";
-            this.yılıAylıkCirolarıToolStripMenuItem.Size = new System.Drawing.Size(318, 22);
-            this.yılıAylıkCirolarıToolStripMenuItem.Text = "1997 Yılı Aylık Ciroları";
-            // 
-            // firmaListesiToolStripMenuItem
-            // 
-            this.firmaListesiToolStripMenuItem.Name = "firmaListesiToolStripMenuItem";
-            this.firmaListesiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.firmaListesiToolStripMenuItem.Text = "Firma Listesi";
-            // 
-            // isveçliŞirketlerToolStripMenuItem
-            // 
-            this.isveçliŞirketlerToolStripMenuItem.Name = "isveçliŞirketlerToolStripMenuItem";
-            this.isveçliŞirketlerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.isveçliŞirketlerToolStripMenuItem.Text = "İsveçli Şirketler";
-            // 
-            // enÇokSatılanÜrünAdetBazlıToolStripMenuItem
-            // 
-            this.enÇokSatılanÜrünAdetBazlıToolStripMenuItem.Name = "enÇokSatılanÜrünAdetBazlıToolStripMenuItem";
-            this.enÇokSatılanÜrünAdetBazlıToolStripMenuItem.Size = new System.Drawing.Size(439, 22);
-            this.enÇokSatılanÜrünAdetBazlıToolStripMenuItem.Text = "En Çok Satılan Ürün (Adet Bazlı)";
-            // 
-            // enÇokSAtılanÜrünFiyatBazlıToolStripMenuItem
-            // 
-            this.enÇokSAtılanÜrünFiyatBazlıToolStripMenuItem.Name = "enÇokSAtılanÜrünFiyatBazlıToolStripMenuItem";
-            this.enÇokSAtılanÜrünFiyatBazlıToolStripMenuItem.Size = new System.Drawing.Size(439, 22);
-            this.enÇokSAtılanÜrünFiyatBazlıToolStripMenuItem.Text = "En Çok Satılan Ürün (Fiyat Bazlı)";
-            // 
-            // bugüneKadarYapılanİndirimsizSatışTutarıİleİskontoKarşılaştırmasıToolStripMenuItem
-            // 
-            this.bugüneKadarYapılanİndirimsizSatışTutarıİleİskontoKarşılaştırmasıToolStripMenuItem.Name = "bugüneKadarYapılanİndirimsizSatışTutarıİleİskontoKarşılaştırmasıToolStripMenuItem" +
-    "";
-            this.bugüneKadarYapılanİndirimsizSatışTutarıİleİskontoKarşılaştırmasıToolStripMenuItem.Size = new System.Drawing.Size(439, 22);
-            this.bugüneKadarYapılanİndirimsizSatışTutarıİleİskontoKarşılaştırmasıToolStripMenuItem.Text = "Bugüne Kadar Yapılan İndirimsiz Satış Tutarı ile İskonto Karşılaştırması";
             // 
             // Form1
             // 
@@ -348,9 +367,9 @@
         private System.Windows.Forms.ToolStripMenuItem ürünlerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem msbProduct_Consumed;
         private System.Windows.Forms.ToolStripMenuItem msbProducts_Milk;
-        private System.Windows.Forms.ToolStripMenuItem içeceklerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pahalıOlanlarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem satıştanKaldırılanlarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem msbProduct_Beverages;
+        private System.Windows.Forms.ToolStripMenuItem msbProduct_Expensives;
+        private System.Windows.Forms.ToolStripMenuItem msbProducts_Discontinued;
         private System.Windows.Forms.ToolStripMenuItem müşterilerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem personelToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem siparişToolStripMenuItem;
@@ -360,21 +379,21 @@
         private System.Windows.Forms.ToolStripMenuItem msbProducts_All;
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnPrevious;
-        private System.Windows.Forms.ToolStripMenuItem müşterilerToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem müşteriSiparişleriToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem müşteriSiparişÜcretleriToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem personelListesiToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem enYaşlı3PersonelToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem personelVeYöneticisiToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem yılBazlıToplamSatışAdediToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem enÇokAlıToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem enÇokGelirEldeEdilen5TarihVeGelirMiktarıToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem yılıAylıkCirolarıToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem enÇokSatılanÜrünAdetBazlıToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem enÇokSAtılanÜrünFiyatBazlıToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bugüneKadarYapılanİndirimsizSatışTutarıİleİskontoKarşılaştırmasıToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem firmaListesiToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem isveçliŞirketlerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem msbCustomers_All;
+        private System.Windows.Forms.ToolStripMenuItem msbCustomers_Orders;
+        private System.Windows.Forms.ToolStripMenuItem msbCustomersOrderAmounts;
+        private System.Windows.Forms.ToolStripMenuItem msbEmployee_All;
+        private System.Windows.Forms.ToolStripMenuItem msbEmployee_Elders;
+        private System.Windows.Forms.ToolStripMenuItem msbEmployee_Managers;
+        private System.Windows.Forms.ToolStripMenuItem msbOrder_CountOfYearlySell;
+        private System.Windows.Forms.ToolStripMenuItem msbOrder_Top10Customers;
+        private System.Windows.Forms.ToolStripMenuItem msbOrder_Top5Date;
+        private System.Windows.Forms.ToolStripMenuItem msbOrder_1997MonthlyReport;
+        private System.Windows.Forms.ToolStripMenuItem msbOrderDetail_MostSoldByCount;
+        private System.Windows.Forms.ToolStripMenuItem msbOrderDetail_MostSoldByPrice;
+        private System.Windows.Forms.ToolStripMenuItem msbOrderDetails_Compare;
+        private System.Windows.Forms.ToolStripMenuItem msbSuppliers_All;
+        private System.Windows.Forms.ToolStripMenuItem msbSupplier_Swedish;
     }
 }
 

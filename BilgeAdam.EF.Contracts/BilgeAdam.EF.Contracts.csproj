@@ -41,9 +41,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerBuyReportDto.cs" />
+    <Compile Include="CustomerDto.cs" />
+    <Compile Include="CustomerOrderDto.cs" />
+    <Compile Include="CustomerOrderPriceListDto.cs" />
+    <Compile Include="DateOrderReportDto.cs" />
+    <Compile Include="EmployeeAgeDto.cs" />
+    <Compile Include="EmployeeListDto.cs" />
+    <Compile Include="EmployeeManagerDto.cs" />
+    <Compile Include="MonthlyReportOfYearDto.cs" />
+    <Compile Include="OrderDetailDto.cs" />
+    <Compile Include="OrderPriceMappingDto.cs" />
     <Compile Include="ProductDto.cs" />
+    <Compile Include="ProductReportDto.cs" />
     <Compile Include="ProductStockDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SupplierDto.cs" />
+    <Compile Include="YearlyOrderReportDto.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
